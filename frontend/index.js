@@ -16,3 +16,16 @@ console.log("<--you can drive-->")
 else{
     console.log("you can not dreive")
 }
+
+let   loop = 1;
+for(i=0; i<10;i++){
+    console.log(loop + i);
+}
+function functoin(name){
+    console.log("sharma",name)
+}
+functoin("roshan")
+
+
+const add = require('./math');
+console.log(add())
